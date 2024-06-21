@@ -140,11 +140,11 @@
   function accountmenu() {
   var f = document.getElementById("accountmenuthing");
   if (f.style.display === "none") {
-    f.style.minWidth = '-1px';
-      f.style.width = '-1px';
-      f.style.height = '1px';
+    //f.style.minWidth = '1px';
+      f.style.width = '1px';
+      f.style.height = '-1px';
     f.style.display = "block";
-    f.style.minWidth = '375px';
+    //f.style.minWidth = '375px';
       f.style.width = '375px';
       f.style.height = '70vh';
     var g = document.getElementById("accountmenubutton");
@@ -152,9 +152,9 @@
     var z = document.getElementById("navbaritem4");
     z.style.background = '#ffffff20';
   } else {
-      f.style.minWidth = '-1px';
-      f.style.width = '-1px';
-      f.style.height = '1px';
+      //f.style.minWidth = '1px';
+      f.style.width = '1px';
+      f.style.height = '-1px';
     setTimeout(function () { f.style.display = "none"; }, 350);
     var g = document.getElementById("accountmenubutton");
     g.src = "./imageassets/usernotfilled.png";
