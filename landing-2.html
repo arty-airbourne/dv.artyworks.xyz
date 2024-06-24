@@ -265,7 +265,7 @@ if (!document.getElementById('barmenuthing').contains(e.target) && (!document.ge
   <div style="float: left; width: 100%; height: 100%; transition: border-bottom 100ms ease-in-out 0s; background: rgba(255, 255, 255, 0);" class="baricon navbaritem1" id="navbaritem1" onmouseout="if (document.getElementById('barmenuthing').style.display == 'none') {var children = this.querySelectorAll('.icon'); children.forEach(function(child) { child.src = './imageassets/bar.png'; }); this.style.background = '#ffffff00';}" onmouseover="if (document.getElementById('barmenuthing').style.display == 'none') { var children = this.querySelectorAll('.icon'); children.forEach(function(child) { child.src = './imageassets/barhover.png'; }); this.style.background = '#ffffff20';}">
 
 
-    <img class="icon" style="height: 60%;width: 60%;object-fit: fill;margin: 14%;margin-left: 17%;margin-top: 18%;" src="./imageassets/bar.png" onclick="foldermenu()" id="barmenubutton">
+    <img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none;" class="icon" draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none; height: 60%;width: 60%;object-fit: fill;margin: 14%;margin-left: 17%;margin-top: 18%;" src="./imageassets/bar.png" onclick="foldermenu()" id="barmenubutton">
 
   </div>
 
@@ -291,7 +291,7 @@ if (!document.getElementById('barmenuthing').contains(e.target) && (!document.ge
   <div style="float: left; width: 100%; height: 100%; transition: border-bottom 100ms ease-in-out 0s; background: rgba(255, 255, 255, 0);" class="accounticon navbaritem4" id="navbaritem4" onmouseout="if (document.getElementById('accountmenuthing').style.display == 'none') {var children = this.querySelectorAll('.accountonhover'); children.forEach(function(child) { child.src = './imageassets/usernotfilled.png'; }); this.style.background = '#ffffff00';}" onmouseover="if (document.getElementById('accountmenuthing').style.display == 'none') { var children = this.querySelectorAll('.accountonhover'); children.forEach(function(child) { child.src = './imageassets/userfilled.png'; }); this.style.background = '#ffffff20';}">
 
 
-    <img style="height: 60%;width: 70%;object-fit: fill;margin: auto;/* margin-left: auto; */margin-top: 20%;margin-bottom: 20%;/* margin-left: auto; *//* margin-right: auto; */display: flex;justify-content: center;align-items: center;min-height: 37px;" src="./imageassets/usernotfilled.png" onclick="accountmenu()" id="accountmenubutton" class="accountonhover">
+    <img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none;" draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none; height: 60%;width: 70%;object-fit: fill;margin: auto;/* margin-left: auto; */margin-top: 20%;margin-bottom: 20%;/* margin-left: auto; *//* margin-right: auto; */display: flex;justify-content: center;align-items: center;min-height: 37px;" src="./imageassets/usernotfilled.png" onclick="accountmenu()" id="accountmenubutton" class="accountonhover">
 
   </div>
   <div style="float: left; width: 375px; backdrop-filter: blur(17px); height: 70vh; margin-top: 5px; background: rgba(0, 0, 0, 0.25); border-radius: 8px; min-width: 375px; position: relative; left: -330px; border-color: rgba(255, 255, 255, 0.17); border-width: medium; border-image: none 100% / 1 / 0 stretch; border-block-start: rgba(255, 255, 255, 0.17); border-block-end: rgba(255, 255, 255, 0.17); backface-visibility: visible; border-style: solid; display: none; z-index: 2147483647; transition: opacity 100ms ease-in 0s; opacity: 0;" id="accountmenuthing"></div>
@@ -301,7 +301,7 @@ if (!document.getElementById('barmenuthing').contains(e.target) && (!document.ge
 <div class="item" style=" float: right;width: 60.44444px;height: -webkit-fill-available;">
   <div class="carticon navbaritem3" id="navbaritem3" style="float: left; width: 100%; height: 100%; transition: border-bottom 100ms ease-in-out 0s; background: rgba(255, 255, 255, 0);" onmouseout="if (document.getElementById('cartmenuthing').style.display == 'none') {var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cart.png'; }); this.style.background = '#ffffff00';}" onmouseover="if (document.getElementById('cartmenuthing').style.display == 'none') { var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cartfilled.png'; }); this.style.background = '#ffffff20';}">
 
-    <img style="height: 60%;width: 60%;object-fit: fill;margin: 20%;/* margin-top: 18%; *//* margin-left: 21%; */" src="./imageassets/cart.png" class="cartonhover" onclick="cartmenu()" id="cartmenubutton">
+    <img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none;"" draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none;"height: 60%;width: 60%;object-fit: fill;margin: 20%;/* margin-top: 18%; *//* margin-left: 21%; */" src="./imageassets/cart.png" class="cartonhover" onclick="cartmenu()" id="cartmenubutton">
   </div>
   <div id="cartmenuthing" style="float: left; width: 375px; backdrop-filter: blur(17px); height: 70vh; margin-top: 5px; background: rgba(0, 0, 0, 0.25); border-radius: 8px; min-width: 375px; position: relative; left: -270px; border-color: rgba(255, 255, 255, 0.17); border-width: medium; border-image: none 100% / 1 / 0 stretch; border-block-start: medium none rgba(255, 255, 255, 0.17); backface-visibility: visible; border-block-end: medium none rgba(255, 255, 255, 0.17); z-index: 2147483647; border-style: solid; display: none; transition: opacity 100ms ease-in 0s; opacity: 0;">
   </div>
@@ -326,7 +326,7 @@ left: 4%;
 <div class="splashtext"></div>
 <div class="spashfade"></div>
 </div>
-<div class="splashimg" style="margin: 0px 0px 0px -10px !important;width: 100%;"><img src="https://www.betaarchive.com/imageupload/1304990899.or.90622.png" style="height: 100vh;width: 104%; margin:0px !important;overflow: hidden;" class=""><div class="bottom-left" style="
+<div class="splashimg" style="margin: 0px 0px 0px -10px !important;width: 100%;"><img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none; height: 100vh;width: 104%; margin:0px !important;overflow: hidden;" src="https://www.betaarchive.com/imageupload/1304990899.or.90622.png" class=""><div class="bottom-left" style="
     font-family: arial, sans-serif;
     font-size: 60px;
     font-weight: bold;
