@@ -94,7 +94,11 @@ background: #ffffff10;
 <link rel="stylesheet" type="text/css" href="./css/genericstyles.css">
 <script>
 
-
+$(window).on('load resize',function(){
+    if($(window).width() < 950){
+        window.location = "https://www.airbourne.xyz/gitcopy/OtherTests/p/mag/resizetest2.html"
+    }
+});
 
 function cartmenu() {
 var x = document.getElementById("cartmenuthing");
@@ -342,6 +346,7 @@ left: 4%;
     font-family: helvetica, arial, aptos;
     color: white;
     margin-bottom: 10vh;
+    text-align: center;
 ">Ready for whatever road you take.</p></div></div>
 </div>
 
