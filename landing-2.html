@@ -300,9 +300,9 @@ if (!document.getElementById('barmenuthing').contains(e.target) && (!document.ge
 
 </div>
 <div class="item" style=" float: right;width: 60.44444px;height: -webkit-fill-available;">
-  <div class="carticon navbaritem3" id="navbaritem3" style="float: left; width: 100%; height: 100%; transition: border-bottom 100ms ease-in-out 0s; background: rgba(255, 255, 255, 0);" onmouseout="if (document.getElementById('cartmenuthing').style.display == 'none') {var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cart.png'; }); this.style.background = '#ffffff00';}" onmouseover="if (document.getElementById('cartmenuthing').style.display == 'none') { var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cartfilled.png'; }); this.style.background = '#ffffff20';}">
+  <div class="carticon navbaritem3" id="navbaritem3" style="float: left; width: 100%; height: 100%; transition: border-bottom 100ms ease-in-out 0s; background: rgba(255, 255, 255, 0);" onmouseout="if (document.getElementById('cartmenuthing').style.display == 'none') {var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cart.png'; }); this.style.background = '#ffffff00';}" onmouseover="if (document.getElementById('cartmenuthing').style.display == 'none') { var children = this.querySelectorAll('.cartonhover'); children.forEach(function(child) { child.src = './imageassets/cartfilled.png'; }); this.style.background = '#ffffff20';}" onclick="cartmenu()">
 
-    <img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none; height: 60%;width: 60%;object-fit: fill;margin: 20%;/* margin-top: 18%; *//* margin-left: 21%; */" src="./imageassets/cart.png" class="cartonhover" onclick="cartmenu()" id="cartmenubutton">
+    <img draggable="false" style=" user-drag:none; -webkit-user-drag: none; user-select: none; -mox-user-select: none; -webkit-user-select: none; -ms-user-select: none; height: 60%;width: 60%;object-fit: fill;margin: 20%;/* margin-top: 18%; *//* margin-left: 21%; */" src="./imageassets/cart.png" class="cartonhover" id="cartmenubutton">
   </div>
   </div>
   </div>
