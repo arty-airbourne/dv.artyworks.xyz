@@ -94,6 +94,12 @@ background: #ffffff10;
 <link rel="stylesheet" type="text/css" href="./css/genericstyles.css">
 <script>
 
+
+var d = new Date(); // for now
+d.getHours(); // => 9
+d.getMinutes(); // =>  30
+d.getSeconds(); // => 51
+
 window.onload = function() {
 
   setTimeout(function () { var element1 = document.getElementById('barmenuthing');}, 1000)
@@ -106,6 +112,15 @@ window.onload = function() {
   console.log("el2");
   //element3.style.display = 'none';
   console.log("el3");
+  if (d.getHours > 21 || d.getHours < 5) {
+    document.getElementById('splashimg').src = "https://www.theblackpooltower.com/media/pxmjvvmv/illuminations.jpg";
+    document.getElementById('InitialFade').background = "#color";
+    document.getElementById('FadeToWhite').background = "linear-gradient(color color color color)";
+  } else if (!(d.getHours < 5) && !(d.getHours > 21)) {
+    document.getElementById('InitialFade').background = '#color';
+    document.getElementById('')
+    document.getElementById('GradientToWhite').background = "linear-gradient(180deg, #405f16 0%, #657f44 100%)";
+  }
 }
 
   window.onresize = function(){
@@ -429,13 +444,15 @@ left: 4%;
 </div>
 
 <div class="boxfadetowhite" style="height:fit-content;filter: blur(9px);margin: -10px;position: relative;z-index: 99;top: -0.5%;">
-<div class="white" style="
+<div class="white" id="initialFade" style="
 height: 50px;
 background-color: #2c4e00;
 width: -webkit-fill-available;
 margin: -10px;
 "></div>
-<div class="white" style="height: 50px;background: linear-gradient(180deg, #405f16 0%, #657f44 100%);width: -webkit-fill-available;margin: -10px;"></div><div class="white" style="height: 50px;background: linear-gradient(180deg, #657f44 0%, #889b6d 100%);width: -webkit-fill-available;margin: -10px;"></div><div class="white" style="height: 50px;background: linear-gradient(180deg, #889b6d 0%, #efefef 100%);width: -webkit-fill-available;margin: -10px;"></div>
+<div class="white" id="gradientWhite" style="height: 50px;background: linear-gradient(180deg, #405f16 0%, #657f44 100%);width: -webkit-fill-available;margin: -10px;"></div>
+<div class="white" id="gradientWhite2" style="height: 50px;background: linear-gradient(180deg, #657f44 0%, #889b6d 100%);width: -webkit-fill-available;margin: -10px;"></div>
+<div class="white" id="gradientWhite3" style="height: 50px;background: linear-gradient(180deg, #889b6d 0%, #efefef 100%);width: -webkit-fill-available;margin: -10px;"></div>
 </div>
 <div class="body2" style="margin: -100px -10px -10px -10px;width: -webkit-fill-available;background: #efefef;height: -webkit-fill-available;width: 150%;"></div>
 <style type="text/css"></style>
