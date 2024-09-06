@@ -125,3 +125,98 @@
   margin-bottom: 3%;
 }
 
+
+.line {
+  overflow-y: scroll;
+  display:inline-flex;
+}
+
+.box {
+  position: absolute;
+  height: 33vh;
+  width: 20vw;
+  
+  
+  background: #00000036;
+  margin: 1vh;
+  padding: 1vh;
+  border-radius: 17px;
+  box-shadow: 0px 0px 34px 0 rgba(0, 0, 0, 0.3);
+  margin-right: 2.5vw;
+  margin-top: 3.5vh;
+  margin-bottom: 6vh;
+}
+
+.a8 {
+  right: -1296px;
+  animation: right 50ms ease-in-out 0ms;
+}
+
+.a7 {
+  right: -972px;
+  animation: right 50ms ease-in-out 0ms;
+}
+
+.a6 {
+  right: -648px;
+  animation: right 50ms ease-in-out 0ms;
+}
+.a5 {
+  right: -324px;
+  animation: right 50ms ease-in-out 0ms;
+}.a4 {
+  right: 0px;
+  animation: right 50ms ease-in-out 0ms;
+}.a3 {
+  right: 324px;
+  animation: right 50ms ease-in-out 0ms;
+}.a2 {
+  right: 648px;
+  animation: right 50ms ease-in-out 0ms;
+}.a1 {
+  right: 972px;
+  animation: right 50ms ease-in-out 0ms;
+}
+
+.commit-message {
+  color: white;
+font-size: 60px;
+margin-left: 4%;
+font-weight: bold;
+height: 100px;
+margin-bottom: 100px;
+margin-top: 4%;
+}
+
+.commit-details {
+  color: white;
+font-size: 40px;
+margin-left: 4%;
+font-weight: bold;
+}
+
+.author-info {
+  color: white;
+  margin-top: calc(13vh - 4%);
+  border-radius: 90px;
+  justify-content: right;
+  display: flex;
+
+}
+
+img {
+  border-radius: 90px
+}
+
+.author-info span {
+  display: none;
+}
+
+.ContentCarousel {
+  height: 66vh;
+}
+
+.loading {
+  display: none;
+}
+
