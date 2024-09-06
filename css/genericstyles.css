@@ -80,6 +80,7 @@
   background-color: #00000036;
   margin-bottom: 3.5vh;
   border-radius: 17px;
+  /*! display: flex; */
 }
 
 .FindAlisNearYou {
