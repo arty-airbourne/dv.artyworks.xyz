@@ -129,7 +129,12 @@
 .line {
   overflow-y: scroll;
   display:inline-flex;
+  height: calc(42vh);
+  margin-bottom: 4vh;
+  background-color: #d9d9d96e;
+  width: 100%;
 }
+
 
 .box {
   position: absolute;
