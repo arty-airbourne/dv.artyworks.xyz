@@ -77,7 +77,7 @@
   width: 90%;
   margin-right: 5%;
   margin-left: 5%;
-  background-color: #00000036;
+  background-color: #d4a843ab;
   margin-bottom: 3.5vh;
   border-radius: 17px;
   /*! display: flex; */
@@ -89,7 +89,7 @@
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: #000000ab;
+  background-color: #8f6b26ab;
   border-radius: 17px;
   margin-bottom: 6%;
 }
