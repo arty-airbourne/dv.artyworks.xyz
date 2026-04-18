@@ -8,4 +8,5 @@ this is the source of a **\*.artyworks.xyz** website. this is either a side proj
 
 this is the source for: **BUSINESS R068/69 advertising method "Website"**
 
-
+---
+since Business Studies GCSE (OCR R068/R069) is now complete, this repository will no longer be updated.
